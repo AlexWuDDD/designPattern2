@@ -8,11 +8,15 @@
 
 #include <iostream>
 #include "AdapterPattern/testAP.hpp"
+#include "BridgePattern/testBF.hpp"
+#include "DecoratorPattern/testDP.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
-    testAP();
+    //testAP();
+    //testBP();
+    testDP();
     return 0;
     
 }
