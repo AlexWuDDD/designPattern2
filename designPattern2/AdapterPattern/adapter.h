@@ -13,7 +13,7 @@
 #include "adaptee.h"
 
 #ifndef SAFE_DELETE
-#define SAFE_DELETE(p) { if(p){delete(p); (p)=NULL;} }
+#define SAFE_DELETE(p) {if(p){delete(p); (p)=NULL;}}
 #endif
 
 ////电源适配器

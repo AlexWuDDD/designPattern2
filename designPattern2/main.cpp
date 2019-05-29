@@ -10,13 +10,15 @@
 #include "AdapterPattern/testAP.hpp"
 #include "BridgePattern/testBF.hpp"
 #include "DecoratorPattern/testDP.hpp"
+#include "CompositePattern/Transparent/testCPT.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     //testAP();
     //testBP();
-    testDP();
+    //testDP();
+    testCPT();
     return 0;
     
 }

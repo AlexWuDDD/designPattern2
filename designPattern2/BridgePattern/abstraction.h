@@ -19,6 +19,7 @@ public:
         m_pEe = ee;
     }
     
+    virtual ~ISwitch(){};
     //打开电器
     virtual void On() = 0;
     
