@@ -11,14 +11,20 @@
 #include "BridgePattern/testBF.hpp"
 #include "DecoratorPattern/testDP.hpp"
 #include "CompositePattern/Transparent/testCPT.hpp"
-
+#include "FacadePattern/testFP.hpp"
+#include "FlyweightPattern/testFlyweight.hpp"
+#include "ProxyPattern/testPP.hpp"
+std::map<std::string, IPlayer*> PlayerFactory::m_map = std::map<std::string, IPlayer*>();
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     //testAP();
     //testBP();
     //testDP();
-    testCPT();
+    //testCPT();
+    //testFP();
+    //testFlyweight();
+    testPP();
     return 0;
     
 }

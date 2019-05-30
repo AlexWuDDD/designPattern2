@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		955D30DC229F6F7700BF9583 /* testPP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 955D30DA229F6F7700BF9583 /* testPP.cpp */; };
+		9578FB10229F5B22008135B3 /* testFP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9578FB0E229F5B22008135B3 /* testFP.cpp */; };
+		9578FB17229F5FC9008135B3 /* testFlyweight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9578FB15229F5FC9008135B3 /* testFlyweight.cpp */; };
 		95A195ED229CB69500B8CC52 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95A195EC229CB69500B8CC52 /* main.cpp */; };
 		95A195F9229CBB4F00B8CC52 /* testAP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95A195F7229CBB4F00B8CC52 /* testAP.cpp */; };
 		95A19602229CD19C00B8CC52 /* testBF.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95A19600229CD19C00B8CC52 /* testBF.cpp */; };
@@ -27,6 +30,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		955D30D7229F6EBF00BF9583 /* subject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = subject.h; sourceTree = "<group>"; };
+		955D30D8229F6EED00BF9583 /* real_subject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = real_subject.h; sourceTree = "<group>"; };
+		955D30D9229F6F3800BF9583 /* proxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = proxy.h; sourceTree = "<group>"; };
+		955D30DA229F6F7700BF9583 /* testPP.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = testPP.cpp; sourceTree = "<group>"; };
+		955D30DB229F6F7700BF9583 /* testPP.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = testPP.hpp; sourceTree = "<group>"; };
+		9578FB0C229F57D3008135B3 /* sub_system.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sub_system.h; sourceTree = "<group>"; };
+		9578FB0D229F5A84008135B3 /* facade.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = facade.h; sourceTree = "<group>"; };
+		9578FB0E229F5B22008135B3 /* testFP.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = testFP.cpp; sourceTree = "<group>"; };
+		9578FB0F229F5B22008135B3 /* testFP.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = testFP.hpp; sourceTree = "<group>"; };
+		9578FB12229F5E1C008135B3 /* flyweight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = flyweight.h; sourceTree = "<group>"; };
+		9578FB13229F5EF7008135B3 /* concrete_flyweight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = concrete_flyweight.h; sourceTree = "<group>"; };
+		9578FB14229F5F71008135B3 /* flyweight_factory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = flyweight_factory.h; sourceTree = "<group>"; };
+		9578FB15229F5FC9008135B3 /* testFlyweight.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = testFlyweight.cpp; sourceTree = "<group>"; };
+		9578FB16229F5FC9008135B3 /* testFlyweight.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = testFlyweight.hpp; sourceTree = "<group>"; };
 		95A195E9229CB69500B8CC52 /* designPattern2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = designPattern2; sourceTree = BUILT_PRODUCTS_DIR; };
 		95A195EC229CB69500B8CC52 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = main.cpp; sourceTree = "<group>"; };
 		95A195F4229CB85800B8CC52 /* target.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = target.h; sourceTree = "<group>"; };
@@ -66,6 +83,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		955D30D6229F6E5900BF9583 /* ProxyPattern */ = {
+			isa = PBXGroup;
+			children = (
+				955D30D7229F6EBF00BF9583 /* subject.h */,
+				955D30D8229F6EED00BF9583 /* real_subject.h */,
+				955D30D9229F6F3800BF9583 /* proxy.h */,
+				955D30DA229F6F7700BF9583 /* testPP.cpp */,
+				955D30DB229F6F7700BF9583 /* testPP.hpp */,
+			);
+			path = ProxyPattern;
+			sourceTree = "<group>";
+		};
+		9578FB0B229F57AD008135B3 /* FacadePattern */ = {
+			isa = PBXGroup;
+			children = (
+				9578FB0C229F57D3008135B3 /* sub_system.h */,
+				9578FB0D229F5A84008135B3 /* facade.h */,
+				9578FB0E229F5B22008135B3 /* testFP.cpp */,
+				9578FB0F229F5B22008135B3 /* testFP.hpp */,
+			);
+			path = FacadePattern;
+			sourceTree = "<group>";
+		};
+		9578FB11229F5D83008135B3 /* FlyweightPattern */ = {
+			isa = PBXGroup;
+			children = (
+				9578FB12229F5E1C008135B3 /* flyweight.h */,
+				9578FB13229F5EF7008135B3 /* concrete_flyweight.h */,
+				9578FB14229F5F71008135B3 /* flyweight_factory.h */,
+				9578FB15229F5FC9008135B3 /* testFlyweight.cpp */,
+				9578FB16229F5FC9008135B3 /* testFlyweight.hpp */,
+			);
+			path = FlyweightPattern;
+			sourceTree = "<group>";
+		};
 		95A195E0229CB69500B8CC52 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +137,9 @@
 		95A195EB229CB69500B8CC52 /* designPattern2 */ = {
 			isa = PBXGroup;
 			children = (
+				955D30D6229F6E5900BF9583 /* ProxyPattern */,
+				9578FB11229F5D83008135B3 /* FlyweightPattern */,
+				9578FB0B229F57AD008135B3 /* FacadePattern */,
 				95EE9F22229E078900E2A21D /* CompositePattern */,
 				95A19603229CD4A600B8CC52 /* DecoratorPattern */,
 				95A195FB229CCA8500B8CC52 /* BridgePattern */,
@@ -218,7 +273,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9578FB17229F5FC9008135B3 /* testFlyweight.cpp in Sources */,
 				95A195F9229CBB4F00B8CC52 /* testAP.cpp in Sources */,
+				9578FB10229F5B22008135B3 /* testFP.cpp in Sources */,
+				955D30DC229F6F7700BF9583 /* testPP.cpp in Sources */,
 				95A19602229CD19C00B8CC52 /* testBF.cpp in Sources */,
 				95A195ED229CB69500B8CC52 /* main.cpp in Sources */,
 				95A19612229CD8B700B8CC52 /* testDP.cpp in Sources */,
