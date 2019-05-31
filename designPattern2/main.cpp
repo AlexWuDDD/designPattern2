@@ -14,6 +14,10 @@
 #include "FacadePattern/testFP.hpp"
 #include "FlyweightPattern/testFlyweight.hpp"
 #include "ProxyPattern/testPP.hpp"
+#include "TemplateMethodPattern/testTMP.hpp"
+#include "CommandPattern/testCommandP.hpp"
+#include "ObservePattern/testObserverP.hpp"
+
 std::map<std::string, IPlayer*> PlayerFactory::m_map = std::map<std::string, IPlayer*>();
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -24,7 +28,10 @@ int main(int argc, const char * argv[]) {
     //testCPT();
     //testFP();
     //testFlyweight();
-    testPP();
+    //testPP();
+    //testTMP();
+    //testCommandP();
+    testObserveP();
     return 0;
     
 }

@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		953CBE6322A0ACD1003868AB /* testTMP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 953CBE6122A0ACD1003868AB /* testTMP.cpp */; };
+		953CBE6722A0B1B2003868AB /* command.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 953CBE6622A0B1B2003868AB /* command.cpp */; };
+		953CBE6A22A0B21F003868AB /* receiver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 953CBE6822A0B21F003868AB /* receiver.cpp */; };
+		953CBE7022A0B54B003868AB /* invoker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 953CBE6E22A0B54B003868AB /* invoker.cpp */; };
+		953CBE7322A0B5C8003868AB /* testCommandP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 953CBE7122A0B5C8003868AB /* testCommandP.cpp */; };
+		953CBE7B22A0B8DA003868AB /* testObserverP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 953CBE7922A0B8DA003868AB /* testObserverP.cpp */; };
 		955D30DC229F6F7700BF9583 /* testPP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 955D30DA229F6F7700BF9583 /* testPP.cpp */; };
 		9578FB10229F5B22008135B3 /* testFP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9578FB0E229F5B22008135B3 /* testFP.cpp */; };
 		9578FB17229F5FC9008135B3 /* testFlyweight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9578FB15229F5FC9008135B3 /* testFlyweight.cpp */; };
@@ -30,6 +36,24 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		953CBE5F22A0ABF8003868AB /* abstract_class.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = abstract_class.h; sourceTree = "<group>"; };
+		953CBE6022A0AC7D003868AB /* concrete_class.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = concrete_class.h; sourceTree = "<group>"; };
+		953CBE6122A0ACD1003868AB /* testTMP.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = testTMP.cpp; sourceTree = "<group>"; };
+		953CBE6222A0ACD1003868AB /* testTMP.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = testTMP.hpp; sourceTree = "<group>"; };
+		953CBE6522A0B118003868AB /* command.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = command.h; sourceTree = "<group>"; };
+		953CBE6622A0B1B2003868AB /* command.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = command.cpp; sourceTree = "<group>"; };
+		953CBE6822A0B21F003868AB /* receiver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = receiver.cpp; sourceTree = "<group>"; };
+		953CBE6922A0B21F003868AB /* receiver.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = receiver.hpp; sourceTree = "<group>"; };
+		953CBE6E22A0B54B003868AB /* invoker.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = invoker.cpp; sourceTree = "<group>"; };
+		953CBE6F22A0B54B003868AB /* invoker.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = invoker.hpp; sourceTree = "<group>"; };
+		953CBE7122A0B5C8003868AB /* testCommandP.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = testCommandP.cpp; sourceTree = "<group>"; };
+		953CBE7222A0B5C8003868AB /* testCommandP.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = testCommandP.hpp; sourceTree = "<group>"; };
+		953CBE7522A0B7EF003868AB /* subject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = subject.h; sourceTree = "<group>"; };
+		953CBE7622A0B839003868AB /* concrete_subject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = concrete_subject.h; sourceTree = "<group>"; };
+		953CBE7722A0B882003868AB /* observer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = observer.h; sourceTree = "<group>"; };
+		953CBE7822A0B8A2003868AB /* concrete_observer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = concrete_observer.h; sourceTree = "<group>"; };
+		953CBE7922A0B8DA003868AB /* testObserverP.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = testObserverP.cpp; sourceTree = "<group>"; };
+		953CBE7A22A0B8DA003868AB /* testObserverP.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = testObserverP.hpp; sourceTree = "<group>"; };
 		955D30D7229F6EBF00BF9583 /* subject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = subject.h; sourceTree = "<group>"; };
 		955D30D8229F6EED00BF9583 /* real_subject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = real_subject.h; sourceTree = "<group>"; };
 		955D30D9229F6F3800BF9583 /* proxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = proxy.h; sourceTree = "<group>"; };
@@ -83,6 +107,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		953CBE5E22A0AB4E003868AB /* TemplateMethodPattern */ = {
+			isa = PBXGroup;
+			children = (
+				953CBE5F22A0ABF8003868AB /* abstract_class.h */,
+				953CBE6022A0AC7D003868AB /* concrete_class.h */,
+				953CBE6122A0ACD1003868AB /* testTMP.cpp */,
+				953CBE6222A0ACD1003868AB /* testTMP.hpp */,
+			);
+			path = TemplateMethodPattern;
+			sourceTree = "<group>";
+		};
+		953CBE6422A0AE1D003868AB /* CommandPattern */ = {
+			isa = PBXGroup;
+			children = (
+				953CBE6522A0B118003868AB /* command.h */,
+				953CBE6622A0B1B2003868AB /* command.cpp */,
+				953CBE6822A0B21F003868AB /* receiver.cpp */,
+				953CBE6922A0B21F003868AB /* receiver.hpp */,
+				953CBE6E22A0B54B003868AB /* invoker.cpp */,
+				953CBE6F22A0B54B003868AB /* invoker.hpp */,
+				953CBE7122A0B5C8003868AB /* testCommandP.cpp */,
+				953CBE7222A0B5C8003868AB /* testCommandP.hpp */,
+			);
+			path = CommandPattern;
+			sourceTree = "<group>";
+		};
+		953CBE7422A0B74F003868AB /* ObservePattern */ = {
+			isa = PBXGroup;
+			children = (
+				953CBE7522A0B7EF003868AB /* subject.h */,
+				953CBE7622A0B839003868AB /* concrete_subject.h */,
+				953CBE7722A0B882003868AB /* observer.h */,
+				953CBE7822A0B8A2003868AB /* concrete_observer.h */,
+				953CBE7922A0B8DA003868AB /* testObserverP.cpp */,
+				953CBE7A22A0B8DA003868AB /* testObserverP.hpp */,
+			);
+			path = ObservePattern;
+			sourceTree = "<group>";
+		};
 		955D30D6229F6E5900BF9583 /* ProxyPattern */ = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +200,9 @@
 		95A195EB229CB69500B8CC52 /* designPattern2 */ = {
 			isa = PBXGroup;
 			children = (
+				953CBE7422A0B74F003868AB /* ObservePattern */,
+				953CBE6422A0AE1D003868AB /* CommandPattern */,
+				953CBE5E22A0AB4E003868AB /* TemplateMethodPattern */,
 				955D30D6229F6E5900BF9583 /* ProxyPattern */,
 				9578FB11229F5D83008135B3 /* FlyweightPattern */,
 				9578FB0B229F57AD008135B3 /* FacadePattern */,
@@ -276,10 +342,16 @@
 				9578FB17229F5FC9008135B3 /* testFlyweight.cpp in Sources */,
 				95A195F9229CBB4F00B8CC52 /* testAP.cpp in Sources */,
 				9578FB10229F5B22008135B3 /* testFP.cpp in Sources */,
+				953CBE6722A0B1B2003868AB /* command.cpp in Sources */,
+				953CBE6322A0ACD1003868AB /* testTMP.cpp in Sources */,
 				955D30DC229F6F7700BF9583 /* testPP.cpp in Sources */,
+				953CBE7B22A0B8DA003868AB /* testObserverP.cpp in Sources */,
+				953CBE7022A0B54B003868AB /* invoker.cpp in Sources */,
 				95A19602229CD19C00B8CC52 /* testBF.cpp in Sources */,
 				95A195ED229CB69500B8CC52 /* main.cpp in Sources */,
 				95A19612229CD8B700B8CC52 /* testDP.cpp in Sources */,
+				953CBE7322A0B5C8003868AB /* testCommandP.cpp in Sources */,
+				953CBE6A22A0B21F003868AB /* receiver.cpp in Sources */,
 				95EE9F2A229E0F5500E2A21D /* testCPT.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
