@@ -17,6 +17,9 @@
 #include "TemplateMethodPattern/testTMP.hpp"
 #include "CommandPattern/testCommandP.hpp"
 #include "ObservePattern/testObserverP.hpp"
+#include "MediatorPattern/testMP.hpp"
+#include "MementoPattern/testMementoP.hpp"
+#include "StatePattern/testSP.hpp"
 
 std::map<std::string, IPlayer*> PlayerFactory::m_map = std::map<std::string, IPlayer*>();
 int main(int argc, const char * argv[]) {
@@ -31,7 +34,10 @@ int main(int argc, const char * argv[]) {
     //testPP();
     //testTMP();
     //testCommandP();
-    testObserveP();
+    //testObserveP();
+    //testMP();
+    //testMementoP();
+    testSP();
     return 0;
     
 }

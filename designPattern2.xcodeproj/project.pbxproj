@@ -13,6 +13,11 @@
 		953CBE7022A0B54B003868AB /* invoker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 953CBE6E22A0B54B003868AB /* invoker.cpp */; };
 		953CBE7322A0B5C8003868AB /* testCommandP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 953CBE7122A0B5C8003868AB /* testCommandP.cpp */; };
 		953CBE7B22A0B8DA003868AB /* testObserverP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 953CBE7922A0B8DA003868AB /* testObserverP.cpp */; };
+		9547E1AB22A484A500DBF264 /* testIP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9547E1A922A484A500DBF264 /* testIP.cpp */; };
+		9547E1B422A4879E00DBF264 /* testMP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9547E1B222A4879E00DBF264 /* testMP.cpp */; };
+		9547E1BB22A48A1700DBF264 /* testMementoP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9547E1B922A48A1700DBF264 /* testMementoP.cpp */; };
+		9547E1C122A48C3A00DBF264 /* concrete_state.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9547E1C022A48C3A00DBF264 /* concrete_state.cpp */; };
+		9547E1C422A48C9D00DBF264 /* testSP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9547E1C222A48C9D00DBF264 /* testSP.cpp */; };
 		955D30DC229F6F7700BF9583 /* testPP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 955D30DA229F6F7700BF9583 /* testPP.cpp */; };
 		9578FB10229F5B22008135B3 /* testFP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9578FB0E229F5B22008135B3 /* testFP.cpp */; };
 		9578FB17229F5FC9008135B3 /* testFlyweight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9578FB15229F5FC9008135B3 /* testFlyweight.cpp */; };
@@ -54,6 +59,26 @@
 		953CBE7822A0B8A2003868AB /* concrete_observer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = concrete_observer.h; sourceTree = "<group>"; };
 		953CBE7922A0B8DA003868AB /* testObserverP.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = testObserverP.cpp; sourceTree = "<group>"; };
 		953CBE7A22A0B8DA003868AB /* testObserverP.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = testObserverP.hpp; sourceTree = "<group>"; };
+		9547E1A922A484A500DBF264 /* testIP.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = testIP.cpp; sourceTree = "<group>"; };
+		9547E1AA22A484A500DBF264 /* testIP.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = testIP.hpp; sourceTree = "<group>"; };
+		9547E1AC22A484F000DBF264 /* DataItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataItem.h; sourceTree = "<group>"; };
+		9547E1AE22A4863300DBF264 /* mediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mediator.h; sourceTree = "<group>"; };
+		9547E1AF22A4869E00DBF264 /* concrete_mediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = concrete_mediator.h; sourceTree = "<group>"; };
+		9547E1B022A4870300DBF264 /* colleague.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = colleague.h; sourceTree = "<group>"; };
+		9547E1B122A4873F00DBF264 /* concrete_colleague.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = concrete_colleague.h; sourceTree = "<group>"; };
+		9547E1B222A4879E00DBF264 /* testMP.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = testMP.cpp; sourceTree = "<group>"; };
+		9547E1B322A4879E00DBF264 /* testMP.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = testMP.hpp; sourceTree = "<group>"; };
+		9547E1B622A4891D00DBF264 /* memento.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = memento.h; sourceTree = "<group>"; };
+		9547E1B722A4894F00DBF264 /* originator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = originator.h; sourceTree = "<group>"; };
+		9547E1B822A489AE00DBF264 /* care_taker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = care_taker.h; sourceTree = "<group>"; };
+		9547E1B922A48A1700DBF264 /* testMementoP.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = testMementoP.cpp; sourceTree = "<group>"; };
+		9547E1BA22A48A1700DBF264 /* testMementoP.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = testMementoP.hpp; sourceTree = "<group>"; };
+		9547E1BD22A48B8C00DBF264 /* context.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = context.h; sourceTree = "<group>"; };
+		9547E1BE22A48BB600DBF264 /* state.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = state.h; sourceTree = "<group>"; };
+		9547E1BF22A48BE100DBF264 /* concrete_state.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = concrete_state.h; sourceTree = "<group>"; };
+		9547E1C022A48C3A00DBF264 /* concrete_state.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = concrete_state.cpp; sourceTree = "<group>"; };
+		9547E1C222A48C9D00DBF264 /* testSP.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = testSP.cpp; sourceTree = "<group>"; };
+		9547E1C322A48C9D00DBF264 /* testSP.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = testSP.hpp; sourceTree = "<group>"; };
 		955D30D7229F6EBF00BF9583 /* subject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = subject.h; sourceTree = "<group>"; };
 		955D30D8229F6EED00BF9583 /* real_subject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = real_subject.h; sourceTree = "<group>"; };
 		955D30D9229F6F3800BF9583 /* proxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = proxy.h; sourceTree = "<group>"; };
@@ -146,6 +171,54 @@
 			path = ObservePattern;
 			sourceTree = "<group>";
 		};
+		9547E1A822A4848200DBF264 /* IteratorPattern */ = {
+			isa = PBXGroup;
+			children = (
+				9547E1A922A484A500DBF264 /* testIP.cpp */,
+				9547E1AA22A484A500DBF264 /* testIP.hpp */,
+				9547E1AC22A484F000DBF264 /* DataItem.h */,
+			);
+			path = IteratorPattern;
+			sourceTree = "<group>";
+		};
+		9547E1AD22A485E100DBF264 /* MediatorPattern */ = {
+			isa = PBXGroup;
+			children = (
+				9547E1AE22A4863300DBF264 /* mediator.h */,
+				9547E1AF22A4869E00DBF264 /* concrete_mediator.h */,
+				9547E1B022A4870300DBF264 /* colleague.h */,
+				9547E1B122A4873F00DBF264 /* concrete_colleague.h */,
+				9547E1B222A4879E00DBF264 /* testMP.cpp */,
+				9547E1B322A4879E00DBF264 /* testMP.hpp */,
+			);
+			path = MediatorPattern;
+			sourceTree = "<group>";
+		};
+		9547E1B522A488C300DBF264 /* MementoPattern */ = {
+			isa = PBXGroup;
+			children = (
+				9547E1B622A4891D00DBF264 /* memento.h */,
+				9547E1B722A4894F00DBF264 /* originator.h */,
+				9547E1B822A489AE00DBF264 /* care_taker.h */,
+				9547E1B922A48A1700DBF264 /* testMementoP.cpp */,
+				9547E1BA22A48A1700DBF264 /* testMementoP.hpp */,
+			);
+			path = MementoPattern;
+			sourceTree = "<group>";
+		};
+		9547E1BC22A48B5300DBF264 /* StatePattern */ = {
+			isa = PBXGroup;
+			children = (
+				9547E1BD22A48B8C00DBF264 /* context.h */,
+				9547E1BE22A48BB600DBF264 /* state.h */,
+				9547E1BF22A48BE100DBF264 /* concrete_state.h */,
+				9547E1C022A48C3A00DBF264 /* concrete_state.cpp */,
+				9547E1C222A48C9D00DBF264 /* testSP.cpp */,
+				9547E1C322A48C9D00DBF264 /* testSP.hpp */,
+			);
+			path = StatePattern;
+			sourceTree = "<group>";
+		};
 		955D30D6229F6E5900BF9583 /* ProxyPattern */ = {
 			isa = PBXGroup;
 			children = (
@@ -200,6 +273,10 @@
 		95A195EB229CB69500B8CC52 /* designPattern2 */ = {
 			isa = PBXGroup;
 			children = (
+				9547E1BC22A48B5300DBF264 /* StatePattern */,
+				9547E1B522A488C300DBF264 /* MementoPattern */,
+				9547E1AD22A485E100DBF264 /* MediatorPattern */,
+				9547E1A822A4848200DBF264 /* IteratorPattern */,
 				953CBE7422A0B74F003868AB /* ObservePattern */,
 				953CBE6422A0AE1D003868AB /* CommandPattern */,
 				953CBE5E22A0AB4E003868AB /* TemplateMethodPattern */,
@@ -343,15 +420,20 @@
 				95A195F9229CBB4F00B8CC52 /* testAP.cpp in Sources */,
 				9578FB10229F5B22008135B3 /* testFP.cpp in Sources */,
 				953CBE6722A0B1B2003868AB /* command.cpp in Sources */,
+				9547E1C422A48C9D00DBF264 /* testSP.cpp in Sources */,
+				9547E1C122A48C3A00DBF264 /* concrete_state.cpp in Sources */,
 				953CBE6322A0ACD1003868AB /* testTMP.cpp in Sources */,
 				955D30DC229F6F7700BF9583 /* testPP.cpp in Sources */,
 				953CBE7B22A0B8DA003868AB /* testObserverP.cpp in Sources */,
 				953CBE7022A0B54B003868AB /* invoker.cpp in Sources */,
+				9547E1BB22A48A1700DBF264 /* testMementoP.cpp in Sources */,
+				9547E1B422A4879E00DBF264 /* testMP.cpp in Sources */,
 				95A19602229CD19C00B8CC52 /* testBF.cpp in Sources */,
 				95A195ED229CB69500B8CC52 /* main.cpp in Sources */,
 				95A19612229CD8B700B8CC52 /* testDP.cpp in Sources */,
 				953CBE7322A0B5C8003868AB /* testCommandP.cpp in Sources */,
 				953CBE6A22A0B21F003868AB /* receiver.cpp in Sources */,
+				9547E1AB22A484A500DBF264 /* testIP.cpp in Sources */,
 				95EE9F2A229E0F5500E2A21D /* testCPT.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
