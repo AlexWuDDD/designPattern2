@@ -13,6 +13,9 @@
 		953CBE7022A0B54B003868AB /* invoker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 953CBE6E22A0B54B003868AB /* invoker.cpp */; };
 		953CBE7322A0B5C8003868AB /* testCommandP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 953CBE7122A0B5C8003868AB /* testCommandP.cpp */; };
 		953CBE7B22A0B8DA003868AB /* testObserverP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 953CBE7922A0B8DA003868AB /* testObserverP.cpp */; };
+		9543CBAB22A5CA9F0058558D /* testStrategyP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9543CBA922A5CA9F0058558D /* testStrategyP.cpp */; };
+		9543CBB122A5CD080058558D /* testChainRP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9543CBAF22A5CD080058558D /* testChainRP.cpp */; };
+		9543CBBA22A5CF7D0058558D /* testVP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9543CBB822A5CF7D0058558D /* testVP.cpp */; };
 		9547E1AB22A484A500DBF264 /* testIP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9547E1A922A484A500DBF264 /* testIP.cpp */; };
 		9547E1B422A4879E00DBF264 /* testMP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9547E1B222A4879E00DBF264 /* testMP.cpp */; };
 		9547E1BB22A48A1700DBF264 /* testMementoP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9547E1B922A48A1700DBF264 /* testMementoP.cpp */; };
@@ -59,6 +62,22 @@
 		953CBE7822A0B8A2003868AB /* concrete_observer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = concrete_observer.h; sourceTree = "<group>"; };
 		953CBE7922A0B8DA003868AB /* testObserverP.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = testObserverP.cpp; sourceTree = "<group>"; };
 		953CBE7A22A0B8DA003868AB /* testObserverP.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = testObserverP.hpp; sourceTree = "<group>"; };
+		9543CBA622A5CA0F0058558D /* strategy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = strategy.h; sourceTree = "<group>"; };
+		9543CBA722A5CA3B0058558D /* concrete_strategy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = concrete_strategy.h; sourceTree = "<group>"; };
+		9543CBA822A5CA6F0058558D /* context.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = context.h; sourceTree = "<group>"; };
+		9543CBA922A5CA9F0058558D /* testStrategyP.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = testStrategyP.cpp; sourceTree = "<group>"; };
+		9543CBAA22A5CA9F0058558D /* testStrategyP.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = testStrategyP.hpp; sourceTree = "<group>"; };
+		9543CBAD22A5CC560058558D /* handler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = handler.h; sourceTree = "<group>"; };
+		9543CBAE22A5CC950058558D /* concrete_handler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = concrete_handler.h; sourceTree = "<group>"; };
+		9543CBAF22A5CD080058558D /* testChainRP.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = testChainRP.cpp; sourceTree = "<group>"; };
+		9543CBB022A5CD080058558D /* testChainRP.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = testChainRP.hpp; sourceTree = "<group>"; };
+		9543CBB322A5CE470058558D /* visitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = visitor.h; sourceTree = "<group>"; };
+		9543CBB422A5CE840058558D /* concrete_visitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = concrete_visitor.h; sourceTree = "<group>"; };
+		9543CBB522A5CED90058558D /* element.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = element.h; sourceTree = "<group>"; };
+		9543CBB622A5CF060058558D /* concrete_element.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = concrete_element.h; sourceTree = "<group>"; };
+		9543CBB722A5CF390058558D /* object_structure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = object_structure.h; sourceTree = "<group>"; };
+		9543CBB822A5CF7D0058558D /* testVP.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = testVP.cpp; sourceTree = "<group>"; };
+		9543CBB922A5CF7D0058558D /* testVP.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = testVP.hpp; sourceTree = "<group>"; };
 		9547E1A922A484A500DBF264 /* testIP.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = testIP.cpp; sourceTree = "<group>"; };
 		9547E1AA22A484A500DBF264 /* testIP.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = testIP.hpp; sourceTree = "<group>"; };
 		9547E1AC22A484F000DBF264 /* DataItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataItem.h; sourceTree = "<group>"; };
@@ -171,6 +190,43 @@
 			path = ObservePattern;
 			sourceTree = "<group>";
 		};
+		9543CBA522A5C9A90058558D /* StrategyPattern */ = {
+			isa = PBXGroup;
+			children = (
+				9543CBA622A5CA0F0058558D /* strategy.h */,
+				9543CBA722A5CA3B0058558D /* concrete_strategy.h */,
+				9543CBA822A5CA6F0058558D /* context.h */,
+				9543CBA922A5CA9F0058558D /* testStrategyP.cpp */,
+				9543CBAA22A5CA9F0058558D /* testStrategyP.hpp */,
+			);
+			path = StrategyPattern;
+			sourceTree = "<group>";
+		};
+		9543CBAC22A5CBDB0058558D /* ChainofResponsibilityPattern */ = {
+			isa = PBXGroup;
+			children = (
+				9543CBAD22A5CC560058558D /* handler.h */,
+				9543CBAE22A5CC950058558D /* concrete_handler.h */,
+				9543CBAF22A5CD080058558D /* testChainRP.cpp */,
+				9543CBB022A5CD080058558D /* testChainRP.hpp */,
+			);
+			path = ChainofResponsibilityPattern;
+			sourceTree = "<group>";
+		};
+		9543CBB222A5CDCA0058558D /* VisitorPattern */ = {
+			isa = PBXGroup;
+			children = (
+				9543CBB322A5CE470058558D /* visitor.h */,
+				9543CBB422A5CE840058558D /* concrete_visitor.h */,
+				9543CBB522A5CED90058558D /* element.h */,
+				9543CBB622A5CF060058558D /* concrete_element.h */,
+				9543CBB722A5CF390058558D /* object_structure.h */,
+				9543CBB822A5CF7D0058558D /* testVP.cpp */,
+				9543CBB922A5CF7D0058558D /* testVP.hpp */,
+			);
+			path = VisitorPattern;
+			sourceTree = "<group>";
+		};
 		9547E1A822A4848200DBF264 /* IteratorPattern */ = {
 			isa = PBXGroup;
 			children = (
@@ -273,6 +329,9 @@
 		95A195EB229CB69500B8CC52 /* designPattern2 */ = {
 			isa = PBXGroup;
 			children = (
+				9543CBB222A5CDCA0058558D /* VisitorPattern */,
+				9543CBAC22A5CBDB0058558D /* ChainofResponsibilityPattern */,
+				9543CBA522A5C9A90058558D /* StrategyPattern */,
 				9547E1BC22A48B5300DBF264 /* StatePattern */,
 				9547E1B522A488C300DBF264 /* MementoPattern */,
 				9547E1AD22A485E100DBF264 /* MediatorPattern */,
@@ -416,7 +475,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9543CBB122A5CD080058558D /* testChainRP.cpp in Sources */,
 				9578FB17229F5FC9008135B3 /* testFlyweight.cpp in Sources */,
+				9543CBAB22A5CA9F0058558D /* testStrategyP.cpp in Sources */,
 				95A195F9229CBB4F00B8CC52 /* testAP.cpp in Sources */,
 				9578FB10229F5B22008135B3 /* testFP.cpp in Sources */,
 				953CBE6722A0B1B2003868AB /* command.cpp in Sources */,
@@ -433,6 +494,7 @@
 				95A19612229CD8B700B8CC52 /* testDP.cpp in Sources */,
 				953CBE7322A0B5C8003868AB /* testCommandP.cpp in Sources */,
 				953CBE6A22A0B21F003868AB /* receiver.cpp in Sources */,
+				9543CBBA22A5CF7D0058558D /* testVP.cpp in Sources */,
 				9547E1AB22A484A500DBF264 /* testIP.cpp in Sources */,
 				95EE9F2A229E0F5500E2A21D /* testCPT.cpp in Sources */,
 			);

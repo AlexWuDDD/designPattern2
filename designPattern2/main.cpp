@@ -20,6 +20,9 @@
 #include "MediatorPattern/testMP.hpp"
 #include "MementoPattern/testMementoP.hpp"
 #include "StatePattern/testSP.hpp"
+#include "StrategyPattern/testStrategyP.hpp"
+#include "ChainofResponsibilityPattern/testChainRP.hpp"
+#include "VisitorPattern/testVP.hpp"
 
 std::map<std::string, IPlayer*> PlayerFactory::m_map = std::map<std::string, IPlayer*>();
 int main(int argc, const char * argv[]) {
@@ -37,7 +40,10 @@ int main(int argc, const char * argv[]) {
     //testObserveP();
     //testMP();
     //testMementoP();
-    testSP();
+    //testSP();
+    //testStrateP();
+    //testChainRP();
+    testVP();
     return 0;
     
 }
